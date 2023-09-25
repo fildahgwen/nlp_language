@@ -30,7 +30,7 @@ model = load_model('best_model2.h5')
 st.title('Next Word Prediction')
 
 
-link = '[Link to Google Colab notebook](https://colab.research.google.com/drive/1XzMg_WWvgZaIdQA7VWbvpz9kXF54lTXg?usp=sharing)'
+link = '[Link to Google Colab notebook](https://colab.research.google.com/drive/1Z_JQ40giI7bGwFzLzwM1Vfr85KREYUiw?usp=sharing)'
 st.markdown(link, unsafe_allow_html=True)
 # loading
 with open('tokenizer.pickle', 'rb') as handle:
